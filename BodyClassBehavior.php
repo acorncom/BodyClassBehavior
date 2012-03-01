@@ -1,5 +1,5 @@
 <?php
-class ControllerBodyClassBehavior extends CBehavior
+class BodyClassBehavior extends CBehavior
 {
 	// the body class code was copied verbatim from the below url into this behavior and is due to Artifical and Nick Matthews
 	// http://www.yiiframework.com/forum/index.php/topic/28849-body-classes-based-on-url/
