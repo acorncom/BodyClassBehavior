@@ -7,7 +7,7 @@ Then add the behavior to a controller (or even better to your components/Control
 public function behaviors() {
 	return array(
               'ControllerBodyClassBehavior' => array(
-                     'class' => 'ext.ControllerBodyClassBehavior.ControllerBodyClassBehavior'
+                     'class' => 'ext.BodyClassBehavior.BodyClassBehavior'
               ),
               ...
 	);
