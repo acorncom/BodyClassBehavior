@@ -6,7 +6,7 @@ Then add the behavior to a controller (or even better to your components/Control
 
 public function behaviors() {
 	return array(
-              'ControllerBodyClassBehavior' => array(
+              'BodyClassBehavior' => array( 
                      'class' => 'ext.BodyClassBehavior.BodyClassBehavior'
               ),
               ...
@@ -22,3 +22,4 @@ In your layouts/main.php view, add to your body tag:
 And you're done!
 
 Code in this credit to Artifical and Nick Matthews (see http://www.yiiframework.com/forum/index.php/topic/28849-body-classes-based-on-url/)
+
